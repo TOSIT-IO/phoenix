@@ -1,6 +1,6 @@
 # TDP Phoenix Notes
 
-The version 5.1.3-TDP-0.1.0-SNAPSHOT of Apache Phoenix is based on the branch `5.1` tag of the Apache [repository](https://github.com/apache/phoenix/tree/5.1).
+The version 5.1.3-1.0 of Apache Phoenix is based on the branch `5.1` tag of the Apache [repository](https://github.com/apache/phoenix/tree/5.1).
 
 ## Making a release
 
