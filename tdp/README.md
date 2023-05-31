@@ -1,6 +1,6 @@
 # TDP Phoenix Notes
 
-The version 5.1.3-TDP-0.1.0-SNAPSHOT of Apache Phoenix is based on the branch `5.1` tag of the Apache [repository](https://github.com/apache/phoenix/tree/5.1).
+The version 5.1.2-1.0 of Apache Phoenix is based on the branch `5.1` tag of the Apache [repository](https://github.com/apache/phoenix/tree/5.1).
 
 ## Making a release
 
@@ -8,7 +8,7 @@ The version 5.1.3-TDP-0.1.0-SNAPSHOT of Apache Phoenix is based on the branch `5
 mvn clean install -DskipTests -Dhbase.profile=2.1
 ```
 
-This command generates `phoenix-hbase-2.1-5.1.3-TDP-0.1.0-SNAPSHOT-bin.tar.gz` file in the `phoenix-assembly/target` directory.
+This command generates `phoenix-hbase-2.1-5.1.2-1.0-bin.tar.gz` file in the `phoenix-assembly/target` directory.
 
 ## To run tests
 
@@ -17,7 +17,7 @@ This command generates `phoenix-hbase-2.1-5.1.3-TDP-0.1.0-SNAPSHOT-bin.tar.gz` f
 mvn test -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 ```
 
-- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-TDP-0.1.0-SNAPSHOT
+- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-1.0 and hadoop 3.1.1-0.0
 - -DPhoenixPatchProcess, disables the build of the shaded artifacts (not necessary for tests)
 - -Dskip.code-coverage, self explanatory
 
@@ -27,6 +27,6 @@ mvn test -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 mvn verify -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 ```
 
-- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-TDP-0.1.0-SNAPSHOT
+- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-1.0 and hadoop 3.1.1-0.0
 - -DPhoenixPatchProcess, disables the build of the shaded artifacts (not necessary for tests)
 - -Dskip.code-coverage, self explanatory
