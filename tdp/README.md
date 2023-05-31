@@ -17,7 +17,7 @@ This command generates `phoenix-hbase-2.1-5.1.3-1.0-bin.tar.gz` file in the `pho
 mvn test -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 ```
 
-- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-TDP-0.1.0-SNAPSHOT
+- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-1.0 and hadoop 3.1.1-0.0
 - -DPhoenixPatchProcess, disables the build of the shaded artifacts (not necessary for tests)
 - -Dskip.code-coverage, self explanatory
 
@@ -27,6 +27,6 @@ mvn test -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 mvn verify -Dhbase.profile=2.1 -DPhoenixPatchProcess -Dskip.code-coverage
 ```
 
-- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-TDP-0.1.0-SNAPSHOT
+- -Dhbase.profile=2.1, builds phoenix with hbase 2.1.10-1.0 and hadoop 3.1.1-0.0
 - -DPhoenixPatchProcess, disables the build of the shaded artifacts (not necessary for tests)
 - -Dskip.code-coverage, self explanatory
