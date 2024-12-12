@@ -75,7 +75,7 @@
     <!-- Hadoop and Hbase-thirdparty version -->
     <!-- These are expected to be overridden to conform to cluster versions
     along with hbase.version (defined in profiles) -->
-    <hadoop.version>3.3.6</hadoop.version>
+    <hadoop.version>3.3.6-1.0</hadoop.version>
 
     <phoenix.thirdparty.version>2.1.0</phoenix.thirdparty.version>
     <hbase.suffix>hbase-${hbase.profile}</hbase.suffix>
@@ -85,7 +85,7 @@
     <!-- The default hbase versions to build with (override with hbase.version) -->
     <hbase-2.4.runtime.version>2.4.18</hbase-2.4.runtime.version>
     <hbase-2.5.0.runtime.version>2.5.3-hadoop3</hbase-2.5.0.runtime.version>
-    <hbase-2.5.runtime.version>2.5.10-hadoop3</hbase-2.5.runtime.version>
+    <hbase-2.5.runtime.version>2.5.10-0.0</hbase-2.5.runtime.version>
     <hbase-2.6.runtime.version>2.6.1-hadoop3</hbase-2.6.runtime.version>
 
     <compileSource>1.8</compileSource>
@@ -130,7 +130,7 @@
     <stream.version>2.9.5</stream.version>
     <icu4j.version>72.1</icu4j.version>
     <guice.version>5.1.0</guice.version>
-    <zookeeper.version>3.8.4</zookeeper.version>
+    <zookeeper.version>3.8.4-0.0</zookeeper.version>
     <curator.version>4.2.0</curator.version>
     <jcodings.version>1.0.55</jcodings.version>
     <jetty.version>9.4.56.v20240826</jetty.version>
